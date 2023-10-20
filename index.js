@@ -1,0 +1,41 @@
+let a,b,c;
+document.getElementById("button").onclick=function()
+{
+    a=document.getElementById("h1").value;
+    b=document.getElementById("h2").value;
+    a=Number(a);
+    b=Number(b);
+    c=Number(c);
+    c=a+b;
+    c=document.getElementById("p1").innerHTML="answer="+c;
+}
+document.getElementById("button2").onclick=function()
+{
+    a=document.getElementById("h1").value;
+    b=document.getElementById("h2").value;
+    a=Number(a);
+    b=Number(b);
+    c=Number(c);
+    c=a-b;
+    c=document.getElementById("p1").innerHTML="answer="+c;
+}
+document.getElementById("button3").onclick=function()
+{
+    a=document.getElementById("h1").value;
+    b=document.getElementById("h2").value;
+    a=Number(a);
+    b=Number(b);
+    c=Number(c);
+    c=a*b;
+    c=document.getElementById("p1").innerHTML="answer="+c;
+}
+document.getElementById("button4").onclick=function()
+{
+    a=document.getElementById("h1").value;
+    b=document.getElementById("h2").value;
+    a=Number(a);
+    b=Number(b);
+    c=Number(c);
+    c=a/b;
+    c=document.getElementById("p1").innerHTML="answer="+c;
+}
